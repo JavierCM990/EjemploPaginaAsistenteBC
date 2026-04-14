@@ -10,7 +10,7 @@ codeunit 50103 AddToDoAssistedSetup
     begin
         if not AssistedSetup.Exists(GuidedExperienceType::"Assisted Setup",
               ObjectType::Page,
-              Page::"ToDoAssistedSetup") then
+              Page::ToDoAssistedSetup) then
             AssistedSetup.InsertAssistedSetup(
                     'Add a to-do',
                     'Create a task for your team',
